@@ -128,7 +128,7 @@ end
 
 -----------------------Title case strings-----------------------------------------
 
-function Functions.String.Titlecase(str) --takes in a string as it's parameters and will capitalise the first character of each word. 
+function Functions.StringTitlecase(str) --takes in a string as it's parameters and will capitalise the first character of each word. 
 local buf = {}
   local inWord = false
   for i = 1, #str do
